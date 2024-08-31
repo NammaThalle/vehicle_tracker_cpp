@@ -1,0 +1,214 @@
+2024-08-31 13:46:18 [main.cpp] [INFO] : =======================================================
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||===============================||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||                               ||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||        VEHICLE TRACKING       ||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||     Using Computer Vision     ||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||                               ||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : ==========||===============================||==========
+2024-08-31 13:46:18 [main.cpp] [INFO] : =======================================================
+2024-08-31 13:46:18 [main.cpp] [INFO] : Model Path: models/yolov8m.onnx
+2024-08-31 13:46:18 [main.cpp] [INFO] : Input Path: input/input_video3.mp4
+2024-08-31 13:46:18 [main.cpp] [INFO] : Output Path: output/output_video.mp4
+2024-08-31 13:46:18 [main.cpp] [INFO] : Classes File: input/coco.names
+2024-08-31 13:46:18 [main.cpp] [INFO] : ROI String: 100,100,1680,800
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Attempting to open input video file: input/input_video3.mp4
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Input video file opened successfully: 
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : ===================================================
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Video Dimensions (H x W) = 1080 x 1920
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Video FPS = 25
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Total video Length = 30 s
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : ===================================================
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Attempting to create output video file: output/output_video.mp4
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Output video file created successfully: 
+2024-08-31 13:46:18 [object_detection.cpp] [INFO] : Loading model
+2024-08-31 13:46:18 [object_detection.cpp] [INFO] : Target Device: CPU
+2024-08-31 13:46:18 [object_detection.cpp] [INFO] : Loading label classes from file
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Attempting to assign user given ROI
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : ROI assignment successful
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : ===================================================
+2024-08-31 13:46:18 [video_processing.cpp] [INFO] : Starting ROI tracking
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Processing frame: 0
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Frame: 0: Vehicle detection
+2024-08-31 13:46:18 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:18 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Frame: 0: Vehicle tracking
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Frame: 0: Video overlay
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Frame: 0: Writing frames
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Processing frame: 1
+2024-08-31 13:46:18 [video_processing.cpp] [DEBUG] : Frame: 1: Vehicle detection
+2024-08-31 13:46:18 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 1: Vehicle tracking
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 1: Video overlay
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 1: Writing frames
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Processing frame: 2
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 2: Vehicle detection
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 2: Vehicle tracking
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 2: Video overlay
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 2: Writing frames
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Processing frame: 3
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 3: Vehicle detection
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 3: Vehicle tracking
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 3: Video overlay
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 3: Writing frames
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Processing frame: 4
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 4: Vehicle detection
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 4: Vehicle tracking
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 4: Video overlay
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 4: Writing frames
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Processing frame: 5
+2024-08-31 13:46:19 [video_processing.cpp] [DEBUG] : Frame: 5: Vehicle detection
+2024-08-31 13:46:19 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 5: Vehicle tracking
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 5: Video overlay
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 5: Writing frames
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Processing frame: 6
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 6: Vehicle detection
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 6: Vehicle tracking
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 6: Video overlay
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 6: Writing frames
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Processing frame: 7
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 7: Vehicle detection
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 7: Vehicle tracking
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 7: Video overlay
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 7: Writing frames
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Processing frame: 8
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 8: Vehicle detection
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 8: Vehicle tracking
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 8: Video overlay
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 8: Writing frames
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Processing frame: 9
+2024-08-31 13:46:20 [video_processing.cpp] [DEBUG] : Frame: 9: Vehicle detection
+2024-08-31 13:46:20 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 9: Vehicle tracking
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 9: Video overlay
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 9: Writing frames
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Processing frame: 10
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 10: Vehicle detection
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 10: Vehicle tracking
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 10: Video overlay
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 10: Writing frames
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Processing frame: 11
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 11: Vehicle detection
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 11: Vehicle tracking
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 11: Video overlay
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 11: Writing frames
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Processing frame: 12
+2024-08-31 13:46:21 [video_processing.cpp] [DEBUG] : Frame: 12: Vehicle detection
+2024-08-31 13:46:21 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 12: Vehicle tracking
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 12: Video overlay
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 12: Writing frames
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Processing frame: 13
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 13: Vehicle detection
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 13: Vehicle tracking
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 13: Video overlay
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 13: Writing frames
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Processing frame: 14
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 14: Vehicle detection
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 14: Vehicle tracking
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 14: Video overlay
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 14: Writing frames
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Processing frame: 15
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 15: Vehicle detection
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 15: Vehicle tracking
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 15: Video overlay
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 15: Writing frames
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Processing frame: 16
+2024-08-31 13:46:22 [video_processing.cpp] [DEBUG] : Frame: 16: Vehicle detection
+2024-08-31 13:46:22 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 16: Vehicle tracking
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 16: Video overlay
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 16: Writing frames
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Processing frame: 17
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 17: Vehicle detection
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 17: Vehicle tracking
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 17: Video overlay
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 17: Writing frames
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Processing frame: 18
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 18: Vehicle detection
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 18: Vehicle tracking
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 18: Video overlay
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 18: Writing frames
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Processing frame: 19
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 19: Vehicle detection
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 19: Vehicle tracking
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 19: Video overlay
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 19: Writing frames
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Processing frame: 20
+2024-08-31 13:46:23 [video_processing.cpp] [DEBUG] : Frame: 20: Vehicle detection
+2024-08-31 13:46:23 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 20: Vehicle tracking
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 20: Video overlay
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 20: Writing frames
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Processing frame: 21
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 21: Vehicle detection
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 21: Vehicle tracking
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 21: Video overlay
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 21: Writing frames
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Processing frame: 22
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 22: Vehicle detection
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 22: Vehicle tracking
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 22: Video overlay
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 22: Writing frames
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Processing frame: 23
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 23: Vehicle detection
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 23: Vehicle tracking
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 23: Video overlay
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 23: Writing frames
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Processing frame: 24
+2024-08-31 13:46:24 [video_processing.cpp] [DEBUG] : Frame: 24: Vehicle detection
+2024-08-31 13:46:24 [object_detection.cpp] [DEBUG] : Converting input image to square
+2024-08-31 13:46:25 [video_processing.cpp] [INFO] : Ctrl + C Hit
+2024-08-31 13:46:25 [video_processing.cpp] [INFO] : Exitting Application
+2024-08-31 13:46:25 [object_detection.cpp] [DEBUG] : Detected 2 vehicles
+2024-08-31 13:46:25 [video_processing.cpp] [DEBUG] : Frame: 24: Vehicle tracking
+2024-08-31 13:46:25 [video_processing.cpp] [DEBUG] : Frame: 24: Video overlay
+2024-08-31 13:46:25 [video_processing.cpp] [DEBUG] : Frame: 24: Writing frames
+2024-08-31 13:46:25 [video_processing.cpp] [INFO] : Closing input video
+2024-08-31 13:46:25 [video_processing.cpp] [INFO] : Closing output video
+2024-08-31 13:46:25 [main.cpp] [INFO] : Video processing completed successfully!
+2024-08-31 13:46:25 [main.cpp] [INFO] : Output stored in: output/output_video.mp4
+2024-08-31 13:46:25 [main.cpp] [INFO] : =======================================================
+2024-08-31 13:46:25 [main.cpp] [INFO] : ======================= End Of ========================
+2024-08-31 13:46:25 [main.cpp] [INFO] : ================== VEHICLE TRACKING ===================
+2024-08-31 13:46:25 [main.cpp] [INFO] : =======================================================

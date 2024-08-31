@@ -1,0 +1,34 @@
+Edge Cases and Handling Approaches
+
+This document outlines edge cases encountered in the application, along with the strategies employed or suggested to address them.
+
+1. Occlusions
+
+- Scenario: Vehicles may be partially or fully occluded by other objects (e.g., other vehicles, buildings, trees). 
+- Impact: Occlusions can lead to loss of tracking or inaccurate wait time calculations.
+- Approaches:
+    - Implemented:
+        - The current implementation uses a simple tracking algorithm based on centroid that is struggling with occlusions. 
+    - Suggested:
+        - Employ more robust tracking algorithms like SORT (Simple Online and Realtime Tracking) or DeepSORT or something based on Kalman filter, which can handle occlusions better.
+        - Utilize appearance-based features or re-identification techniques to re-associate tracks after occlusions.
+
+2. High Traffic Density
+
+- Scenario: The video may contain a large number of vehicles, making tracking and identification challenging.
+- Impact: High traffic density decrease tracking accuracy.
+- Approaches:
+    - Implemented:
+        - The current implementation is struggling with large number of vehicles.
+    - Suggested:
+        - Optimize the tracking algorithm for better tracking (Kalman Filter)
+
+3. Resource-Constrained Environments
+
+- Scenario: The application might be deployed on devices with limited memory or processing power, or in situations where real-time performance is critical.
+- Impact: Limited resources can lead to slower processing, dropped frames, or even application crashes.
+- Approaches:
+    - Implemented:
+        - The current implementation processes only the (single) ROI, reducing unnecessary computations by avoiding processing the entire frame.
+    - Suggested:
+        - If the target device and scenarios allow for more resources, consider extending the application to handle multiple ROIs simultaneously. This would involve processing the whole image and associating detections and tracking information with their respective ROIs.
